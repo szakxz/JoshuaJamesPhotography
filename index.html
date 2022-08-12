@@ -15,17 +15,9 @@
     <title>Joshua James Photography </title>
 </head>
 <body>
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1>JoshuaJamesPhotography</h1>
-                </div>
-            </div>
-        </div>
-    </header>
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-        <div class="container">
+   
+    <nav class="navbar navbar-expand-sm navbar-dark  fixed-top">
+        <div class="container-fluid">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#joshuaNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,48 +25,75 @@
                     <ul class="navbar-nav">
                         <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg" ></i>Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="gallery.html"><i class="fa fa-camera aria-hidden="true" fa-lg"></i> Gallery</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-rocket"></i> Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-shopping-bag"></i> Booking</a></li>
+                        <li class="nav-item"><a class="nav-link" href="packages.html"><i class="fa fa-rocket"></i> Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="booking.html"><i class="fa fa-shopping-bag"></i> Booking</a></li>
                     </ul>
-            </div> 
-        </div>       
-    </nav>
-    <div class="container">
-        <div class="row row-content">
-            <div class="col ">
-                //carousel
             </div>
         </div> 
-        <div class="row row-content">
-            <div class="col-6 col-sm-2">
-                <button>
-                    Book a Photoshoot
-                </button>
-            </div>    
+    </nav>
+
+    <div class="jumbotron pt-5">
+        <div class ="container pt-5"> 
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4">Welcome </h1>
+                    <p class="lead">to Photos by Josh</p>
+                    <hr class="my-4">
+                    <p>Please have a look around</p>
+                    <a class="btn btn-primary btn-lg" href="booking.html"role="button">Book a Shoot</a>
+                </div>
+            </div>
         </div>
     </div>
+        
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-4">
+                <div class="card" >
+                    <img src="img/EW multimedia2.jpg" class="card-img">
+                    <div class="card-body">
+                        <!--<h6 class="card-subtitle mb-2 text-muted">Photos by Josh</h6>-->
+                        <a href="gallery.html" class="btn btn-primary" role="button">Gallery</a>
+                     </div>
+                </div>
+            </div>
+                <div class="col-4">
+                    <div class ="card" >
+                        <img src="img/EW fashion1.jpg" class="card-img">
+                        <div class="card-body">
+                           <!--<h6 class="card-subtitle mb-2 text-muted">What I can do for you:</h6>-->
+                           <a href="packages.html" class="btn btn-primary" role="button">Services</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class ="card" >
+                        <img src="img/EW headshots3.jpg" class="card-img"> 
+                        <div class="card-body">
+                           <!-- <h6 class="card-subtitle mb-2 text-muted">Lets take some shots</h6>-->
+                            <a  class="btn btn-primary" role="button" href="booking.html">Booking</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
    
-    <footer class="site-footer fixed-bottom">
+    
+    
+    
+    
+      
+   
+    <footer class="site-footer fixed-bottom pt-5">
         <div class="container">
             <div class="row">
-                 <div class="col-sm-2 offset-1">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-home"></i> <a href="#">Home</a></li>
-                        <li><i class="fa fa-camera"></i> <a href="gallery.html">Gallery</a></li>
-                        <li><i class="fa fa-rocket"></i> <a href="#">Services</a></li>
-                        <li><i class="fa fa-shopping-bag"></i> <a href="#">Booking</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-sm-5 text-center">
-                    <h5>Social</h5>
+                <div class="col text-center  ">
+                    
                     <a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
                     <a href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
                     <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
                     <a href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-                </div>
-                <div class="col-sm-3 text-center">
-                    <i class="fa fa-envelope fa-lg text-primary"></i> Email: JoshuaJamesPhotography@gmail.com
+                    <a href="JoshuaJamesPhotography@gmail.com" ><i class="fa fa-envelope fa-lg text-primary"></i> </a>
                 </div>
             </div>
         </div>

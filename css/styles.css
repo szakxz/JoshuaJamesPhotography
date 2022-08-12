@@ -15,26 +15,45 @@ header h2 {
 }
 
 footer {
-    background-image: linear-gradient(to right, #a0a7a5, rgb(8, 82, 34));
+    background-image: 
     padding: 20px 0;
 }
 
 .jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, #599163, #30c59816, #f3f4f2);
-    color: white;
+    margin-bottom: 0 ;
+    background-image: url("../img/EWmisc1.jpg");
+    color: rgb(126, 70, 35);
+
 }
 .navbar{
-    background-color:#a0a7a5;
+    background-color:rgba(221, 51, 221, 0.465);
+    margin-top: 0;
+   
 }
 
 .row-content {
     padding: 50px 0;
-    border-bottom: 1px ridge;
+    border-bottom: 0px ridge;
     min-height: 200px;
 }
 .site-footer{
-    margin-bottom: 0;
-    padding: 20px 0;
+    margin-bottom: 5px;
+    padding: 5px ;
+    margin-top: 5px;
+}
+
+.bookingForm{
+    background-color:#c8fffa;
+    padding-bottom:0px;
+    margin-bottom:5px;
+    border: solid;
+}
+.form-group{
+    margin-right: auto;
+    margin-left:auto;
+    padding:5px;
+
+}
+.carousel {
+  
 }
