@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Required meta tags always come first -->
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+ 
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+         <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+
+    <title>Joshua James Photography </title>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <h2>Photos by Josh</h2>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark  sticky-top">
+        <div class="container container-fluid">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#joshuaNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="joshuaNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item "><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="packages.html">Services</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#">Booking</a></li>
+                    </ul>
+            </div> 
+        </div> 
+    </div>     
+    </nav>
+    <div class="container">
+        <div class="row ">
+          <div class="col">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active">Booking</li>
+            </ol>
+          
+        <form class="bookingForm">
+            <div class="container">
+        <div class="row row-content">
+            <div class="col ">
+                <h1 class="from-group text-center">Book a Photoshoot</h1>
+                <p class="form-group">Please file out this form:</p>
+                
+                    <div class="form-group">
+                        <label for="emailInput">Email address</label>
+                        <input type ="email" class="form-control" id="emailInput" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted"> We'll never share your email</small>
+                    </div>
+                  
+                    <div class="form-group">
+                        <label for="formControlSelect">Select a Service</label>
+                        <select class="form-control" id="formControlSelect">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                          <option>6</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="formControlSelect2">Options:</label>
+                        <select multiple class="form-control" id="formControlSelect2">
+                          <option>1: HeadShots</option>
+                          <option>2: Portraits</option>
+                          <option>3: Fashion</option>
+                          <option>4: Boudoir</option>
+                          <option>5: Product</option>
+                          <option>6: Pets</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="formControlTextarea1">Questions and Ideas:</label>
+                        <textarea class="form-control" id="formControlTextarea1" rows="3"></textarea>
+                      </div>
+                    
+                      <div class="form-group">
+                    <button type="submit " class="btn btn-primary offset-5">Submit</button>
+                    </div>
+                    <!--calender for dates-->
+                
+             </div>   
+            </div>
+        </form>
+        </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row ">
+                <div class="col text-center ">
+                    
+                    <a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                    <a href="JoshuaJamesPhotography@gmail.com" ><i class="fa fa-envelope fa-lg text-primary"></i> </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+ 
+</body>
+</html>

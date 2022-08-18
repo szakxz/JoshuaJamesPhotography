@@ -1,0 +1,69 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Arial", cursive;
+}
+
+h2 {
+    color: #398463;
+}
+
+header h2 {
+    color: #c8fffa;
+}
+
+footer {
+    background-image: 
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin-bottom: 0 ;
+   background-color:rgb(255, 227, 42);
+    color: olive);
+
+}
+.navbar{
+    background-color:rgba(221, 51, 221, 0.465);
+    margin-top: 0;
+   
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 0px ridge;
+    min-height: 200px;
+}
+.site-footer{
+    margin-bottom: 5px;
+    padding-top: 5px ;
+    margin-top: 5px;
+}
+
+.bookingForm{
+    background-color:#c8fffa;
+    padding-bottom:0px;
+    margin-bottom:5px;
+    border: solid;
+}
+.form-group{
+    margin-right: auto;
+    margin-left:auto;
+    padding:5px;
+
+}
+.carousel-item {
+height:360px;
+
+   
+}
+#carouselImg{
+    max-with: 100%;
+    height: auto;
+}
+.card{
+
+    height:100;
+}
