@@ -21,8 +21,8 @@ footer {
 
 .jumbotron {
     margin-bottom: 0 ;
-    background-image: url("../img/EWmisc1.jpg");
-    color: rgb(126, 70, 35);
+   background-color:rgb(255, 227, 42);
+    color: olive);
 
 }
 .navbar{
@@ -38,7 +38,7 @@ footer {
 }
 .site-footer{
     margin-bottom: 5px;
-    padding: 5px ;
+    padding-top: 5px ;
     margin-top: 5px;
 }
 
@@ -54,6 +54,16 @@ footer {
     padding:5px;
 
 }
-.carousel {
-  
+.carousel-item {
+height:360px;
+
+   
+}
+#carouselImg{
+    max-with: 100%;
+    height: auto;
+}
+.card{
+
+    height:100;
 }
